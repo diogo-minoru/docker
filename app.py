@@ -74,7 +74,7 @@ with st.expander("Docker para executar aplicação streamlit"):
 - Utilizando o gerenciador de pacotes uv e streamlit para criar uma aplicação e realizando um deploy na cloud "render".
     """)
 
-with st.expander("Web Scraping do site maringa.com"):
+with st.expander("Web Scraping com Python e Scrapy"):
     st.markdown("""
 - 🔗 [Repositório no GitHub](https://github.com/diogo-minoru/scrapy_empregos)
 - Programa criado utilizando a linguagem Python e a biblioteca Scrapy para coletar informações das vagas de empregos publicadas no site.
