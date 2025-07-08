@@ -34,4 +34,4 @@ EXPOSE 8501
 # Uses `fastapi dev` to enable hot-reloading when the `watch` sync occurs
 # Uses `--host 0.0.0.0` to allow access from outside the container
 # CMD ["fastapi", "dev", "--host", "0.0.0.0", "src/uv_docker_example"]
-ENTRYPOINT [ "uv", "run", "streamlit", "run", "app/app.py", "--server.port=8501", "--server.address=0.0.0.0" ]
+ENTRYPOINT [ "uv", "run", "streamlit", "run", "app.py", "--server.port=8501"]
